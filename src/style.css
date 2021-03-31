@@ -1,0 +1,96 @@
+.pagenumber {
+list-style: none;
+display: flex;
+margin-left: 1300px;
+width: 20%;
+}
+
+.pagenumber li{
+    padding: 15px;
+    border: 1px solid silver;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.pagenumber li button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+ select.dd option:hover {
+     background-color:  grey;
+}
+.success{
+    background-color: #90EE90;
+    border-radius: 40%;
+    height:auto;
+    width: 60%;
+    color:#228B22;
+    font-size: 15px;
+    font-weight: 900;
+}
+.failure{
+    background-color: #ffcccb;
+    border-radius: 40%;
+    height:auto;
+    width: 60%;
+    color: #8B0000;
+    font-size: 15px;
+    font-weight: 900;
+}
+.dd{
+    border: none;
+    background-color: white;
+    height: 35px;
+    margin-left: 20px;
+    color:	#808080;
+    font-weight: 900;
+    display: inline-block;
+
+}
+
+.fa_custom {
+    color: 
+    grey;
+    margin-left: 300px;
+    margin-top: 50px;
+    }
+
+    .scd{
+        margin-right: 0px;
+        margin-left: 940px;
+        bottom: 10px;
+    }
+    .dd1{
+    border: none;
+    background-color: white;
+    height: 35px;
+    margin-left: auto;
+    color:	#808080;
+    display: inline-block;
+    font-weight: 900;
+     }
+
+
+.tab{
+    border-radius:20px;
+    border-collapse: separate;
+    border:solid silver 1px;
+    border-spacing: 0px;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+ th:first-child {
+    border-top-left-radius: 20px;
+}
+ th:last-child {
+    border-top-right-radius: 20px;
+}
+.tbody:hover{
+background-color: silver;
+cursor: pointer;
+}
+option::shadow{
+    background-color: grey;
+}
